@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="recastCLI_js"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/va/projects/recastCLI.js/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/va/projects/recastCLI.js/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recastCLI_js">
+				<Option output="/home/va/projects/recastCLI.js/cmake-build-debug/recastCLI_js" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/va/projects/recastCLI.js/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/va/projects/recastCLI.js/main"/>
+					<Add directory="/home/va/projects/recastCLI.js/recast"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 recastCLI_js"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recastCLI_js/fast">
+				<Option output="/home/va/projects/recastCLI.js/cmake-build-debug/recastCLI_js" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/va/projects/recastCLI.js/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/va/projects/recastCLI.js/main"/>
+					<Add directory="/home/va/projects/recastCLI.js/recast"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 recastCLI_js/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/va/projects/recastCLI.js/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/va/projects/recastCLI.js/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/va/projects/recastCLI.js/main/ChunkyTriMesh.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/ChunkyTriMesh.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/InputGeom.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/InputGeom.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/MeshLoaderObj.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/MeshLoaderObj.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/build.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/build.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/main/main.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/Recast.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/Recast.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastAlloc.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastAlloc.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastArea.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastAssert.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastAssert.h">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastContour.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastFilter.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastLayers.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastMesh.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastMeshDetail.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastRasterization.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/recast/RecastRegion.cpp">
+			<Option target="recastCLI_js"/>
+		</Unit>
+		<Unit filename="/home/va/projects/recastCLI.js/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

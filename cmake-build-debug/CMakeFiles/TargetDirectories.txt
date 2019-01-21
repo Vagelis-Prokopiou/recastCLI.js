@@ -1,0 +1,3 @@
+/home/va/projects/recastCLI.js/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/va/projects/recastCLI.js/cmake-build-debug/CMakeFiles/recastCLI_js.dir
+/home/va/projects/recastCLI.js/cmake-build-debug/CMakeFiles/edit_cache.dir
